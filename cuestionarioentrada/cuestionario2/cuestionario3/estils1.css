@@ -1,0 +1,37 @@
+body{
+  background-color: pink;
+}
+
+h1{
+  margin-left:10px;
+}
+.preguntas{
+border: 1px solid cyan;
+padding: 10px;
+margin: 10px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: bold;
+}
+
+.pregunta {
+color:black;
+}
+
+.respuestas {
+color:black;
+}
+.preguntas1{
+  margin-top:5px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: bold;
+}
+
+.pregunta1 {
+color:black;
+}
+
+.respuestas1 {
+color:black;
+}
