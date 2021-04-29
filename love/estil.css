@@ -1,0 +1,52 @@
+body{
+  margin:0 auto;;
+  background-color: pink;
+}
+p{
+  font-size: 10px;
+  font-family: cursive;
+  text-align: center;
+  position: relative;
+  font-color:white;
+}
+.love {
+  background: black;
+  width: 300px;
+  height: 300px;
+  margin:0 auto;
+  position: relative;
+  top: 250px;
+  transform: rotate(-45deg);
+}
+
+.love:before {
+  background: black;
+  width: 300px;
+  height: 300px;
+  content: '';
+  transform: translateY(-150px);
+  position: absolute;
+  border-radius: 50%;
+}
+
+.love:after {
+    background: black;
+    width: 300px;
+    height: 300px;
+    content: '';
+    transform: translatex(150px);
+    position: absolute;
+    border-radius: 50%;
+  }
+}
+@keyframes beating {
+  0% {
+  	transform: rotate(45deg) scale(1);
+  }
+  50% {
+    transform: rotate(45deg) scale(2);
+  }
+  100% {
+  	transform: rotate(45deg) scale(1);
+  }
+}
