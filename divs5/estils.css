@@ -1,0 +1,78 @@
+body{
+  background-color:pink;
+}
+div{
+  width:100px;
+  height:100px;
+  padding:3px;
+  margin:3px;
+  font-size:25px;
+  font-family:monospace;
+  text-align:center;
+}
+
+p{
+  margin-top:35px;
+  font-weight:bold;
+}
+
+#uno{
+  background-color:blue;
+}
+
+#dos{
+  background-color:cyan;
+  margin-left:30px;
+  margin-top:20px;
+}
+
+#tres{
+  background-color:purple;
+  margin-left:25px;
+  margin-top:40px;
+  border-radius:50px;
+}
+
+#cuatro{
+  background-color:pink;
+  border-radius:25px;
+  border: solid gold 10px;
+}
+
+#cinco{
+  background-color:orange;
+  border: solid silver 10px;
+}
+
+#seis{
+  background-color:red;
+}
+
+#siete{
+    background-color:yellow;
+}
+
+#ocho{
+  background-color:green;
+}
+
+#nueve{
+    background-color:brown;
+}
+
+#diez{
+    background-color:white;
+}
+
+.class1
+.class2
+.class3
+.class4
+
+h1{
+  font-family: cursive;
+}
+
+p{
+  sont-size:25px;
+}
