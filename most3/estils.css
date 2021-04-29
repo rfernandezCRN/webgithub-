@@ -1,0 +1,76 @@
+body{
+  background-color: black;
+  margin: 0;
+}
+div{
+  height: 200px;
+  width: 200px;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 350px;
+  text-indent: 170px;
+  color:black;
+  margin:10px;
+  float: left;
+  background-image: url(foto/foto.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#uno{
+  background-color: #154360;
+}
+#dos{
+  background-color: #1A5276;
+}
+#tres{
+  background-color: #1F618D;
+}
+#cuatro{
+  background-color:#2471A3;
+}
+#cinco{
+  background-color: #2989B9;
+}
+#seis{
+  background-color: #5499C7;
+}
+#siete{
+  background-color: #7FB3D5 ;
+}
+#ocho{
+  background-color: #A9CCE3;
+}
+
+#nueve{
+  background-color: #D4E6F1;
+}
+#diez{
+  background-color: #EAF2F8;
+}
+#boton{
+  background: none;
+  background-color: white;
+  border-radius: 100px;
+  float:right;
+  position: fixed;
+  right: 50px;
+  bottom:100px;
+  font-size: 25px;
+  text-align: center;
+  line-height: 200px;
+  text-indent: inherit;
+}
+
+
+a:link{
+  text-decoration: none;
+}
+a:visited{
+    color:silver;
+    -webkit-text-stroke: 4px black;
+}
+a:active{
+  color: ;
+}
