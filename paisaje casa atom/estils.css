@@ -1,0 +1,237 @@
+body{
+  background-color:skyblue;
+}
+.fachada{
+  width:200px;
+  height: 200px;
+  background-color: #61210B;
+  position: absolute;
+  left:400px;
+  top:300px;
+  border: 4px black solid;
+}
+.tejado{
+  width:250px;
+  height: 70px;
+  background-color:#8A0808;
+  position: absolute;
+  left:375px;
+  top:230px;
+  border: 4px black solid;
+}
+.ventana1{
+  width:50px;
+  height:50px;
+  background-color: #CEF6F5;
+  position: absolute;
+  left:425px;
+  top:330px;
+  border: 4px black solid;
+}
+.ventana2{
+  width:50px;
+  height:50px;
+  background-color:#CEF6F5;
+  position: absolute;
+  left:515px;
+  top:330px;
+  border: 4px black solid;
+}
+.puerta{
+  width:50px;
+  height:70px;
+  background-color:#8A0808;
+  position: absolute;
+  left:475px;
+  top:430px;
+  border: 4px black solid;
+}
+.chimenea{
+  width:30px;
+  height:60px;
+  background-color:#8A0808;
+  position: absolute;
+  left:550px;
+  top:170px;
+  border: 4px black solid;
+}
+.sol{
+  width:250px;
+  height:250px;
+  background-color:#F3F781;
+  position: absolute;
+  left:1000px;
+  top:50px;
+  border-radius:100%;
+}
+.base{
+  width:150%;
+  height:400px;
+  background-color:#9FF781;
+  position: absolute;
+  left:0px;
+  bottom:-43px;
+
+}
+.palo1{
+  width:14px;
+  height:110px;
+  background-color:white;
+  position: absolute;
+  left:80px;
+  top:397px;
+}
+.palo2{
+  width:14px;
+  height:110px;
+  background-color:white;
+  position: absolute;
+  left:160px;
+  top:397px;
+}
+.palo3{
+  width:14px;
+  height:110px;
+  background-color:white;
+  position: absolute;
+  left:235px;
+  top:397px;
+}
+.palo4{
+  width:14px;
+  height:110px;
+  background-color:white;
+  position: absolute;
+  left:300px;
+  top:397px;
+}
+.reja{
+  width:400px;
+  height:14px;
+  background-color:white;
+  position: absolute;
+  top:450px;
+  left: 0px;
+}
+.flor1{
+  width:10px;
+  height:85px;
+  background-color:green;
+  position: absolute;
+  left:800px;
+  top:397px;
+}
+.flor1dentro{
+  width:30px;
+  height:30px;
+  background-color:#F3F781;
+  position: absolute;
+  left:790px;
+  top:395px;
+  border-radius:100%;
+}
+.petalo1{
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  position: absolute;
+  margin-top: 378px;
+  margin-left: 773px;
+  border-radius: 100% 0% 100% 0%;
+  animation: rotacion 3s infinite linear;
+}
+
+@keyframes rotacion {
+  0% {transform: rotate(0deg);}
+  100% {transition: rotate(360deg);}
+}
+
+.petalo1:before{
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 800px;
+  border-radius: 0%  100% 0% 100% / 0%  100% 0% 100%;
+  animation: rotacion 3s infinite linear;
+}
+
+.flor2{
+  width:10px;
+  height:85px;
+  background-color:green;
+  position: absolute;
+  left:900px;
+  top:397px;
+}
+
+.flor2dentro{
+  width:30px;
+  height:30px;
+  background-color:#F3F781;
+  position: absolute;
+  left:890px;
+  top:395px;
+  border-radius:100%;
+}
+.petalo2{
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  position: absolute;
+  margin-top: 375px;
+  margin-left: 874px;
+  border-radius: 100% 0% 100% 0%;
+  animation: rotacion 3s infinite linear;
+}
+
+.petalo2.2{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 300px;
+  border-radius: 0%  100% 0% 100% / 0%  100% 0% 100%;
+  animation: rotacion 3s infinite linear;
+}
+
+.flor3{
+  width:10px;
+  height:85px;
+  background-color:green;
+  position: absolute;
+  left:1000px;
+  top:397px;
+}
+.flor3dentro{
+  width:30px;
+  height:30px;
+  background-color:#F3F781;
+  position: absolute;
+  left:990px;
+  top:395px;
+  border-radius:100%;
+}
+.petalo3{
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  position: absolute;
+  margin-top: 376px;
+  margin-left: 972px;
+  border-radius: 100% 0% / 100% 0%;
+  animation: rotacion 3s infinite linear;
+}
+
+.petalo3:before;{
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  position: relative;
+  margin-top: 350px;
+  margin-left: 100px;
+  border-radius: 0%  100% 0% 100% / 0%  100% 0% 100%;
+  animation: rotacion 3s infinite linear;
+}
