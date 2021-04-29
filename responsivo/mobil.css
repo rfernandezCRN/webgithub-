@@ -1,0 +1,86 @@
+@media screen and (max-width: 424px) {
+  body{
+    background-color:salmon;
+    font-family: 'Playfair Display', serif;
+}
+
+.cuadros{
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  margin: 20px;
+}
+
+p{
+  font-size: 25px;
+  font-family:"Playfair Display";
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+}
+#uno{
+  background-color: purple;
+}
+#dos{
+  background-color: violet;
+}
+#tres{
+  background-color: blue;
+}
+#cuatro{
+  background-color: cyan;
+}
+#cuatroderecho{
+  height: 480px;
+  width: 660px;
+  background-color: black;
+  float: left;
+  margin: 20px;
+}
+
+#contenedor{
+  float: left;
+}
+
+#titulo{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  color: black;
+  text-align: center;
+  -webkit-text-stroke-: white 3px ;
+}
+
+
+  }
+  #uno{
+    background-color: cyan;
+  }
+  #dos{
+    background-color: blue;
+  }
+  #tres{
+    background-color: violet;
+  }
+  #cuatro{
+    background-color: purple;
+  }
+  .cuadros{
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    margin: 20px;
+    transition: 1s;
+    float:left;
+  }
+}
+  .cuadros:hover{
+    opacity:50%;
+    transform: rotate(360deg);
+  }
+
+  p{
+    line-height: 125px;
+    font-size: 25px;
+  }
+}
