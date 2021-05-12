@@ -1,0 +1,156 @@
+
+body{
+  background-image: url(foto.png);
+  background-size: 1000px;
+  background-position: center;
+  background-color:#333
+}
+.redondas{
+  width: 300px;
+  height: 300px;
+  margin: 25px;
+  float: left;
+  margin-left:25px;
+  border-right: 50px solid #D8D8D8;
+  border-top: 50px solid #A8A7A7;
+  border-left: 50px solid #9A9A9A;
+  border-bottom: 50px solid #686868;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  animation: girar  5s;
+   }
+
+   @keyframes girar{
+     0% {
+         transform: rotate(0deg)
+     } to {
+         transform: rotate(1turn)
+     }
+   }
+
+p{
+  font-size: 100px;
+  font-family:"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size:100px;
+  text-align: center;
+  line-height: 100px;
+  color:white;
+  color: #e0dfdc;
+  letter-spacing: .1em;
+  text-shadow:
+    0 -1px 0 #fff,
+    0 1px 0 #2e2e2e,
+    0 2px 0 #2c2c2c,
+    0 3px 0 #2a2a2a,
+    0 4px 0 #282828,
+    0 5px 0 #262626,
+    0 6px 0 #242424,
+    0 7px 0 #222,
+    0 8px 0 #202020,
+    0 9px 0 #1e1e1e,
+    0 10px 0 #1c1c1c,
+    0 11px 0 #1a1a1a,
+    0 12px 0 #181818,
+    0 13px 0 #161616,
+    0 14px 0 #141414,
+    0 15px 0 #121212,
+    0 22px 30px rgba(0, 0, 0, 0.9);
+
+}
+
+#uno{
+background-image: url(fondo.jpg);
+}
+
+#dos{
+
+}
+
+#tres{
+}
+
+#cuatro{
+
+}
+
+#cinco{
+}
+
+#seis{
+}
+
+#siete{
+
+}
+
+#ocho{
+
+}
+
+#nueve{
+
+}
+
+#diez{
+
+}
+#boton{
+  background: none;
+  background-color:white;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  float:right;
+  position: fixed;
+  right:0px;
+  bottom:0px;
+  margin:10px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 100px;
+  text-indent: inherit;
+}
+p:visited{
+    color:black;
+    -webkit-text-stroke: 2px black;
+}
+a:link{
+  text-decoration: none;
+}
+a:active{
+  color:lightblue;
+}
+
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size:100px;
+  padding: 80px 50px;
+  text-align: center;
+  color:white;
+  line-height: 200px;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;}
+
+.deepshadow {
+     color: #e0dfdc;
+     letter-spacing: .1em;
+     text-shadow:
+       0 -1px 0 #fff,
+       0 1px 0 #2e2e2e,
+       0 2px 0 #2c2c2c,
+       0 3px 0 #2a2a2a,
+       0 4px 0 #282828,
+       0 5px 0 #262626,
+       0 6px 0 #242424,
+       0 7px 0 #222,
+       0 8px 0 #202020,
+       0 9px 0 #1e1e1e,
+       0 10px 0 #1c1c1c,
+       0 11px 0 #1a1a1a,
+       0 12px 0 #181818,
+       0 13px 0 #161616,
+       0 14px 0 #141414,
+       0 15px 0 #121212,
+       0 22px 30px rgba(0, 0, 0, 0.9);
+   }
